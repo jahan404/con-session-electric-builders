@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+/* ///////SHARED STYLES/////// */
+.display-flex{
+    display: flex;
+}
+
+.banner-main,
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* ///////HEADING NAVBAR/////// */
+.navbar-wrap{
+    background-color: rgb(71, 85, 106);
+    margin-bottom: 20px;
+}
+.navbar{
+    /* border: 2px solid red; */
+    max-width: 1100px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px;
+}
+.navbar h1{
+    color: white;
+    font-weight: 400;
+}
+.nav-buttons button{
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.hamburgir-menu{
+    display: none;
+}
+
+
+/* ///////BANNER SECTION/////// */
+.banner-image-container{
+    width: 50%;
+
+    position: relative;
+}
+.banner-image-container img{
+    width: 100%;
+    /* border-radius: 8px; */
+    padding: 15px;
+    border-radius: 20px; /* border-radius: 20px; whyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy///////////////////////////// */
+}
+.banner-text-part{
+    width: 50%;
+}
+
+.banner-main{
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(241, 241, 241, 0.945);
+    border-radius: 8px;
+}
+
+.banner-text-part{
+    text-align: center;
+}
+.banner-text-part p{
+    color: rgba(105, 98, 98, 0.927);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+.button-primary button{
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.fifty-parcent{
+    position: absolute;
+    top: 45%;
+    right: 40%;
+}
+.fifty-parcent button{
+    background-color: rgba(0, 0, 0, 0.633);
+    color: white;
+    border-radius: 5px;
+    padding: 23px 48px;
+    width: max-content;
+    border: none;
+}
+
+
+
+/* ///////POPULAR SECTION/////// */
+.cards-main{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border: 2px solid red; */
+    gap: 20px;
+}
+
+.card{
+    /* border: 2px solid red; */
+
+    padding: 20px;
+    box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.259);
+    border-radius: 8px;
+    /* border: 2px solid red;  */
+    /* height: 500px; */
+}
+
+ .card div img{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 300px;
+    /* object-fit: cover;  */
+ }
+
+
+ /* odvut section  */
+
+ .odvut-section{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    max-height: 200px;
+    /* border: 2px solid red; */
+
+    gap: 20px;
+ }
+ .icon-1{
+    grid-column: 1/span 7;
+    
+    grid-row: 1/span 6;
+ }
+ .icon-2{
+    grid-column: 8/span 5;
+
+    grid-row: 1/span 6;
+ }
+ .icon-3{
+    grid-column: 1/span 5;
+
+    grid-row: 7/span 6;
+ }
+ .icon-4{
+    grid-column: 6/span 7;
+
+    grid-row: 7/span 6;
+ }
+
+ .odvut-section img{
+    width: 100%;
+    height: 100%;
+
+    filter: brightness(30%);
+    border-radius: 50px;
+ }
+
+ .icon{
+    position: relative;
+ }
+ .i{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+ }
+
+
+ /*//////////// qna section /////////////*/
+
+ /* .qna-main{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+ }
+
+ .qna-child{
+    width: 50%;
+    border: 2px dotted red;
+ }
+
+ .qna-child img{
+    width: 100%;
+    border-radius: 10px;
+ } */
